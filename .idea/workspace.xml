@@ -136,7 +136,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.PHP" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -167,7 +167,7 @@
       <option name="presentableId" value="Default" />
       <updated>1620537428643</updated>
       <workItem from="1620537430007" duration="2538000" />
-      <workItem from="1620546482199" duration="955000" />
+      <workItem from="1620546482199" duration="3718000" />
     </task>
     <servers />
   </component>

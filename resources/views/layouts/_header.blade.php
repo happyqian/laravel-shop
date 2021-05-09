@@ -29,6 +29,7 @@
                         {{ Auth::user()->name }}
                     </a>
                     <div aria-labelledby="navbarDropdown" class="dropdown-menu">
+                        <a href="{{ route('user_addresses.index') }}" class="dropdown-item">收货地址</a>
                         <a href="#" class="dropdown-item" id="logout"
                             onclick="event.preventDefault();document.getElementById('logout-form').submit();"
                         >退出登录</a>
