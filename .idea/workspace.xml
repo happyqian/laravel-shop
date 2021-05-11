@@ -129,6 +129,8 @@
       <path value="$PROJECT_DIR$/vendor/voku/portable-ascii" />
       <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/overtrue/laravel-lang" />
+      <path value="$PROJECT_DIR$/vendor/laravel-lang/lang" />
     </include_path>
   </component>
   <component name="ProjectId" id="1sHlWf6xAC2QPzDAB0khpKDckQx" />
@@ -136,7 +138,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.PHP" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -167,7 +169,9 @@
       <option name="presentableId" value="Default" />
       <updated>1620537428643</updated>
       <workItem from="1620537430007" duration="2538000" />
-      <workItem from="1620546482199" duration="3718000" />
+      <workItem from="1620546482199" duration="3978000" />
+      <workItem from="1620648091825" duration="1000000" />
+      <workItem from="1620736877060" duration="4284000" />
     </task>
     <servers />
   </component>
