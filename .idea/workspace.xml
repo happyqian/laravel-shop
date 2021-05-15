@@ -161,6 +161,7 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/deprecations" />
       <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
       <path value="$PROJECT_DIR$/vendor/encore/laravel-admin" />
+      <path value="$PROJECT_DIR$/vendor/laravel-admin-ext/ckeditor" />
     </include_path>
   </component>
   <component name="ProjectId" id="1sHlWf6xAC2QPzDAB0khpKDckQx" />
@@ -212,7 +213,7 @@
       <workItem from="1620824518645" duration="1490000" />
       <workItem from="1620909618205" duration="1946000" />
       <workItem from="1620999102440" duration="2069000" />
-      <workItem from="1621041549921" duration="1748000" />
+      <workItem from="1621041549921" duration="3332000" />
     </task>
     <servers />
   </component>

@@ -396,6 +396,46 @@ return [
     |
     */
     'extensions' => [
-
+        'ckeditor' => [
+            'enable' => true,
+            'config' => [
+                'lang' => 'zh-CN',
+                'height' => 400,
+            ],
+        ],
+        'quill' => [
+            'enable' => true,
+            'config' => [
+                'modules' => [
+                    'syntax' => true,
+                    'toolbar' =>
+                        [
+                            ['size' => []],
+                            ['header' => []],
+                            'bold',
+                            'italic',
+                            'underline',
+                            'strike',
+                            ['script' => 'super'],
+                            ['script' => 'sub'],
+                            ['color' => []],
+                            ['background' => []],
+                            'blockquote',
+                            'code-block',
+                            ['list' => 'ordered'],
+                            ['list' => 'bullet'],
+                            ['indent' => '-1'],
+                            ['indent' => '+1'],
+                            'direction',
+                            ['align' => []],
+                            'link',
+                            'image',
+                            'video',
+                            'formula',
+                            'clean'
+                        ],
+                    ],
+            ]
+        ]
     ],
 ];

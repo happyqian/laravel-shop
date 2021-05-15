@@ -114,6 +114,7 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/deprecations" />
       <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
       <path value="$PROJECT_DIR$/vendor/encore/laravel-admin" />
+      <path value="$PROJECT_DIR$/vendor/laravel-admin-ext/ckeditor" />
     </include_path>
   </component>
   <component name="PhpUnit">
