@@ -32,6 +32,9 @@ Route::group(['middleware' => ['auth', 'verified']], function() {
     Route::post('products/{product}/favorite', 'ProductsController@favor')->name('products.favor');
     Route::delete('products/{product}/favorite', 'ProductsController@disfavor')->name('products.disfavor');
     Route::get('products/favorites', 'ProductsController@favorites')->name('products.favorites');
+
+    # 购物车
+    Route::post('cart', 'CartController@add')->name('cart.add');
 });
 Route::get('products', 'ProductsController@index')->name('products.index');
 Route::get('products/{product}', 'ProductsController@show')->name('products.show');
