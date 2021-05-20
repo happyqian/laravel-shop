@@ -115,6 +115,8 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
       <path value="$PROJECT_DIR$/vendor/encore/laravel-admin" />
       <path value="$PROJECT_DIR$/vendor/laravel-admin-ext/ckeditor" />
+      <path value="$PROJECT_DIR$/vendor/yansongda/pay" />
+      <path value="$PROJECT_DIR$/vendor/yansongda/supports" />
     </include_path>
   </component>
   <component name="PhpUnit">
