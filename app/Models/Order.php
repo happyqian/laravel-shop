@@ -2,10 +2,12 @@
 
 namespace App\Models;
 
+use Encore\Admin\Traits\DefaultDatetimeFormat;
 use Illuminate\Database\Eloquent\Model;
 
 class Order extends Model
 {
+    use DefaultDatetimeFormat;
     const REFUND_STATUS_PENDING = 'pending';
     const REFUND_STATUS_APPLIED = 'applied';
     const REFUND_STATUS_PROCESSING = 'processing';
@@ -45,6 +47,10 @@ class Order extends Model
         'ship_status',
         'ship_data',
         'extra',
+    ];
+
+    protected $dates = [
+        'paid_at',
     ];
 
     protected $casts = [
