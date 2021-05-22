@@ -2,7 +2,10 @@
 
 namespace App\Providers;
 
+use App\Events\OrderPaid;
 use App\Listeners\QueryListener;
+use App\Listeners\SendOrderPaidMail;
+use App\Listeners\UpdateProductSoldCount;
 use Illuminate\Auth\Events\Registered;
 use Illuminate\Auth\Listeners\SendEmailVerificationNotification;
 use Illuminate\Database\Events\QueryExecuted;
@@ -22,6 +25,10 @@ class EventServiceProvider extends ServiceProvider
         ],
         QueryExecuted::class => [
             QueryListener::class,
+        ],
+        OrderPaid::class => [
+            UpdateProductSoldCount::class,
+            SendOrderPaidMail::class,
         ]
     ];
 
